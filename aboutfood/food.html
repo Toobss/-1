@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="foody.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400,700&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+    <div class="overlay" id="overlay">
+      <h3>  Searchin Now... </h3>
+    </div>
+
+
+    <div class="di1">
+
+        <section class="sec">
+
+            <header>
+                <a href="#">yummy.eats</a>
+            </header>
+
+             <h1><span>The Healthy</span> Eating Experience</h1>
+
+             <p>
+                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat libero ipsam placeat dolores tenetur harum molestias reiciendis modi doloremque!
+             </p>
+
+             <div class="form-container">
+                 <form action="">
+                     <div class="form-left">
+                     <label for="city">Enter your city</label>
+                     <input type="text" name="city" id="city">
+
+                     <p>Example: "Karachi"</p>
+
+                    </div>
+
+                     <input type="button" value="Find Food Now" id="btn" >
+
+                 </form>
+             </div>
+        </section>
+    </div>
+
+    <section class="another">
+        <div class="di2">
+            <h2>Authentic.awesome. </h2>
+
+            <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere fuga corrupti? Doloremque repellendus temporibus modi quod, atque facere nihil impedit suscipit eligendi voluptatem. Repellendus eligendi, dolores quam non esse quia id. Officia perspiciatis tenetur illo exercitationem, pariatur obcaecati a?            </p>
+        </div>
+
+        <img src="foodd.jpg" alt="A picture of momos">
+
+    </section>
+
+
+    <script>
+        let inp = document.getElementById('btn');
+        let overlay = document.getElementById('overlay');
+
+        inp.addEventListener('click', () => {
+                overlay.style.display = 'grid';
+                overlay.classList.add('animate-overlay');
+        } )
+
+
+
+    </script>
+</body>
+</html>
